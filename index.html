@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Toc Toe</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body onload="ticTocGame();">
+	<table >
+		<tr>
+			<td id="cell1"  onclick="updateCell(this);"></td>
+			<td id="cell2"  onclick="updateCell(this);"></td>
+			<td id="cell3"  onclick="updateCell(this);"></td>
+		</tr>
+		<tr>
+			<td id="cell4"  onclick="updateCell(this);"></td>
+			<td id="cell5"  onclick="updateCell(this);"></td>
+			<td id="cell6"  onclick="updateCell(this);"></td>
+		</tr>
+		<tr>
+			<td id="cell7"  onclick="updateCell(this);"></td>
+			<td id="cell8"  onclick="updateCell(this);"></td>
+			<td id="cell9"  onclick="updateCell(this);"></td>
+		</tr>
+	</table>
+	<p id="message"></p>
+	<button onclick="ticTocGame()">Restart Game</button>
+	<script src="main.js"></script>
+</body>
+</html>
